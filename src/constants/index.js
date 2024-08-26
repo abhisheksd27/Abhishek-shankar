@@ -307,17 +307,138 @@ export const socialLinks = [
 ];
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: pricewise, // First icon
         theme: 'btn-back-red',
+        name: 'Full-Stack Authentication Application',
+        description: 'Built a secure full-stack authentication application using MERN stack, JWT, Google OAuth, Redux, and Firebase, demonstrating advanced authentication and security practices.',
+        link: 'https://authentication-app-gczq.onrender.com/',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-blue',
+        name: 'PropertEase',
+        description: 'Developed a MERN stack project where users can find hotels, rental places, and message landlords, with authentication using Firebase.',
+        link: 'https://github.com/abhisheksd27/PropertEase',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-green',
+        name: 'Lip to Speech Synthesis',
+        description: 'Developed a machine learning model for translating lip movements into speech using Flask, HTML, and CSS.',
+        link: 'https://github.com/abhisheksd27/LTS-flask-server',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-purple',
         name: 'MERN Stack Blog application',
         description: 'Designed and developed a feature-rich personal blog using React.js, ExpressJS, NodeJS, MongoDB, with Google OAuth and more.',
-        link: 'https://github.com/abhisheksd27/mern-blog-app',
+        link: 'https://abhishekshankar.onrender.com',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-yellow',
+        name: 'Road Accident Prediction Model',
+        description: 'Developed a web application for predicting road accident severity with Flask, MySQL, and Gradient Boosting Algorithm.',
+        link: 'https://github.com/abhisheksd27/Road-Accident-Prediction-model',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-red',
+        name: 'Event Management System',
+        description: 'Developed a Django application for managing college events with multiple user roles and permissions.',
+        link: 'https://github.com/abhisheksd27/eventmanagmentdjangoprj',
+    },
+    
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-yellow',
+        name: 'Edusity University Website',
+        description: 'Developed a React-based university website to showcase educational programs and campus facilities, with a focus on responsive design.',
+        link: 'https://edusity-two.vercel.app/',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-purple',
+        name: 'Money Tracker',
+        description: 'Created a React application for tracking income, expenses, and budgets, with a user-friendly interface and responsive design.',
+        link: 'https://github.com/abhisheksd27/MoneyTracker-personal',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-red',
+        name: 'MovieHunt',
+        description: 'Developed a React app for searching new movies and watching trailers, with a focus on user-friendly design and seamless interaction.',
+        link: 'https://movie-hunt-woad.vercel.app/',
+    },
+    
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-yellow',
+        name: 'ChatBot using OpenAI',
+        description: 'Developed a web-based chatbot using Django and OpenAI API for dynamic conversations and user authentication.',
+        link: 'https://github.com/abhisheksd27/chatgpt-open-api-project',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-purple',
+        name: 'Django Route Planning and Location Management',
+        description: 'Implemented a web-based application using Django and Google API for route planning and location management.',
+        link: 'https://github.com/abhisheksd27/django-google-map-api-project',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-red',
+        name: 'Student Management System',
+        description: 'Developed a Django-based student management system with features for tracking academic progress and administrative tasks.',
+        link: 'https://github.com/abhisheksd27/Student-management-system',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-blue',
+        name: 'Social Network',
+        description: 'Built a social networking platform using Django, HTML, CSS, and JavaScript, focusing on user interaction and data management.',
+        link: 'https://github.com/abhisheksd27/socialnetwork',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-green',
+        name: 'Stellar Finds',
+        description: 'Utilized various NASA APIs to fetch and display data about space findings using React and NASA API integration.',
+        link: 'hhttps://stellar-finds.vercel.app/',
     },
     {
         iconUrl: estate,
-        theme: 'btn-back-blue',
-        name: 'Road Accident Prediction Model',
-        description: 'Developed a web application for predicting road accident severity with Flask, MySQL, and Gradient Boosting Algorithm.',
-        link: 'https://github.com/abhisheksd27/road-accident-prediction',
+        theme: 'btn-back-purple',
+        name: 'Cosmic View',
+        description: 'Cosmic View is a website that updates new information every day using React.',
+        link: 'https://cosmic-view.vercel.app/',
     },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-blue',
+        name: 'Emoji Interpreter',
+        description: 'Created an interactive web app to translate text into emojis using React, enhancing communication through visual expressions.',
+        link: 'https://emoji-interpreter-theta.vercel.app/',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-green',
+        name: 'Meme Generator',
+        description: 'Developed a React app for creating custom memes by adding text to selected images, ensuring a user-friendly and interactive experience.',
+        link: 'https://meme-generator-psi-ashy.vercel.app/',
+    },
+    {
+        iconUrl: estate, // Second icon
+        theme: 'btn-back-blue',
+        name: 'Simple Weather Application',
+        description: 'Developed a lightweight web tool using JavaScript, HTML, and CSS to provide real-time weather information.',
+        link: 'https://abhisheksd27.github.io/weather/',
+    },
+    {
+        iconUrl: pricewise, // First icon
+        theme: 'btn-back-green',
+        name: 'Simple QR Code Generator',
+        description: 'Built a web application using HTML, CSS, and JavaScript for generating QR codes from user input.',
+        link: 'https://abhisheksd27.github.io/QRCodeGenerator/',
+    }
 ];
