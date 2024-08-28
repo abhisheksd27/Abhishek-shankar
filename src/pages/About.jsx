@@ -49,7 +49,7 @@ const About = () => {
             rel='noopener noreferrer'
             className='bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600 text-sm sm:text-base'
           >
-            Download Resume
+            Resume
           </a>
         </div>
       </div>
