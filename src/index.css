@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.cta-text {
+  @apply text-black font-extrabold flex-1 text-3xl max-md:text-center;
+}
 
 @tailwind base;
 @tailwind components;

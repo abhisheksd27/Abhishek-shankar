@@ -4,6 +4,12 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleNavLinkClick = () => {
+    if (window.innerWidth < 1024) { // Adjust this breakpoint as needed
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
     <header className="header flex items-center justify-between px-4 py-4 bg-transparent relative">
       {/* Logo on the left side */}
@@ -25,6 +31,7 @@ const Navbar = () => {
       <nav className={`lg:flex lg:items-center lg:justify-end gap-4 ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
         <NavLink
           to="/about"
+          onClick={handleNavLinkClick}
           className={({ isActive }) =>
             `flex items-center justify-center w-20 h-10 rounded-full text-xs sm:text-sm md:text-base lg:text-lg transition-transform duration-500 hover:scale-105 hover:shadow-lg ${
               isActive ? 'text-blue-500' : 'text-black'
@@ -41,6 +48,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to="/projects"
+          onClick={handleNavLinkClick}
           className={({ isActive }) =>
             `flex items-center justify-center w-20 h-10 rounded-full text-xs sm:text-sm md:text-base lg:text-lg transition-transform duration-500 hover:scale-105 hover:shadow-lg ${
               isActive ? 'text-blue-500' : 'text-black'
@@ -56,7 +64,25 @@ const Navbar = () => {
           Projects
         </NavLink>
         <NavLink
+          to="/blog"
+          onClick={handleNavLinkClick}
+          className={({ isActive }) =>
+            `flex items-center justify-center w-20 h-10 rounded-full text-xs sm:text-sm md:text-base lg:text-lg transition-transform duration-500 hover:scale-105 hover:shadow-lg ${
+              isActive ? 'text-blue-500' : 'text-black'
+            }`
+          }
+          style={{
+            background: 'rgba(255, 255, 255, 0.1)',
+            backdropFilter: 'blur(10px)',
+            boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
+            transform: 'translateZ(0)',
+          }}
+        >
+          Blogs
+        </NavLink>
+        <NavLink
           to="/contact"
+          onClick={handleNavLinkClick}
           className={({ isActive }) =>
             `flex items-center justify-center w-20 h-10 rounded-full text-xs sm:text-sm md:text-base lg:text-lg transition-transform duration-500 hover:scale-105 hover:shadow-lg ${
               isActive ? 'text-blue-500' : 'text-black'
